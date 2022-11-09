@@ -2006,6 +2006,7 @@ a {
 
 .image-text {
     color:grey;
+    text-decoration: underline;
     font-size: 0.8em;
     margin-bottom: 5px;
 }
