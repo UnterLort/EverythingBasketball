@@ -2010,6 +2010,8 @@ li {
     border: 2px solid black;
     border-radius: 16px;
     padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     background-color: wheat;
     box-shadow: none;
     width: 1000px;    
