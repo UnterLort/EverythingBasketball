@@ -1987,3 +1987,30 @@ a {
 .hover-border-pale-blue:hover {
     border-color: #e7ffff !important;
 }
+
+.home-history {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 16px;
+    padding: 5px;
+    background-color: wheat;
+    box-shadow: none;
+}
+
+.images {
+    border: 5px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 16px;
+    padding: 3px;
+    background-color: wheat;
+    box-shadow: none;
+    width: 1000px;    
+}
