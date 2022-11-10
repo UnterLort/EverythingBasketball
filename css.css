@@ -1996,13 +1996,14 @@ a {
     padding: 7px;
     background-color: wheat;
     box-shadow: none;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .header-text {
     font-size: 1.5em;
     font-weight: 900;
+    text-decoration: underline;
     margin-bottom: -10px
 }
 
