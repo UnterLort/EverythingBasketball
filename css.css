@@ -2018,6 +2018,7 @@ a {
 }
 
 .u-image-text:hover {
+    color: rgb(82, 82, 82);
     text-decoration: underline;
 }
 
