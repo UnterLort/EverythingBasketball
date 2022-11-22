@@ -52,6 +52,10 @@ nav a:hover {
     background-color: white;
 }
 
+nav div {
+    margin: auto;
+}
+
 .dropdown {
     display: flex;
     flex-direction: column;
