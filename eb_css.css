@@ -53,7 +53,7 @@ nav a:hover {
 }
 
 nav i {
-    transition: .2s;
+    transition: 0.2s;
 }
 
 nav div:hover i {
