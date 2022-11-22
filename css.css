@@ -39,16 +39,13 @@ nav {
     top: 0;
 }
 
-nav div {
-    display: flex;
-}
-
 nav a {
     transition-duration: 0.1s;
     border-radius: 5px;
     padding: 10px;
     text-decoration: none;
     color: black;
+    display: flex;
 }
 
 nav a:hover {
@@ -74,7 +71,7 @@ nav a:hover {
     margin-bottom: 5px;
 }
 
-nav>div:hover .dropdown {
+nav > div:hover .dropdown {
     max-height: 50vh;
     transition-duration: 1s;
 }
@@ -104,7 +101,9 @@ nav>div:hover .dropdown {
     padding: 20px;
 }
 
-.grid > div > div, .second li, .second h3 {
+.grid > div > div,
+.second li,
+.second h3 {
     background-color: wheat;
     padding: 10px;
     border: solid black 5px;
