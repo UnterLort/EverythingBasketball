@@ -52,9 +52,12 @@ nav a:hover {
     background-color: white;
 }
 
-nav a:hover i {
+nav i {
+    transition: .2s;
+}
+
+nav div:hover i {
     transform: rotate(180deg);
-    transition: transform .2s;
 }
 
 nav div {
