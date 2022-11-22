@@ -52,6 +52,11 @@ nav a:hover {
     background-color: white;
 }
 
+nav a:hover i {
+    transform: rotate(180deg);
+    transition: transform .2s;
+}
+
 nav div {
     margin: auto;
 }
@@ -144,15 +149,12 @@ header {
     background-image: url("hardwood_floor_background.jpg");
 }
 
-.arrow {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    margin: 10px;
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-top: 7px solid black;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    margin-left: 5px;
     margin-top: 10px;
-}
-
-.down {
-    transform: rotate(45deg);
 }
