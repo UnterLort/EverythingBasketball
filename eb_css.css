@@ -115,16 +115,27 @@ nav > div:hover .dropdown {
 
 .grid > div > div,
 .second li,
-.second h3 {
+.second h3,
+.second p {
     background-color: wheat;
     padding: 10px;
     border: solid black 5px;
     border-radius: 20px;
 }
 
+.third {
+    background-color: wheat;
+    padding: 10px;
+    border: solid black 5px;
+    border-radius: 20px;
+    margin: auto;
+    width: fit-content;
+}
+
 .grid img {
     border: solid black 5px;
     border-radius: 20px;
+    max-width: calc(50vw - 40px);
 }
 
 .btn,
