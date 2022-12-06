@@ -132,6 +132,12 @@ nav > div:hover .dropdown {
     width: fit-content;
 }
 
+.third div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .grid img {
     border: solid black 5px;
     border-radius: 20px;
