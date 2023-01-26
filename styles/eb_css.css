@@ -148,6 +148,11 @@ nav > div:hover .dropdown {
     height: 100%;
 }
 
+.grid iframe {
+    border: solid black 5px;
+    border-radius: 20px;
+}
+
 .btn,
 .button {
     border: none;
